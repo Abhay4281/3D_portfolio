@@ -50,7 +50,7 @@ const About = () => {
 
         I am a skilled Software Development Engineer with 2+ years of production experience building and shipping scalable frontend systems across e-commerce and PropTech platforms. Specialized in React.js, Next.js, and TypeScript with a strong foundation in Node.js, PostgreSQL, and RESTful APIs. Proven track record of performance optimization — reduced page load by 1.2s, eliminated 60% redundant network requests, and improved ad spend efficiency by 30% on a platform serving 90K+ monthly visitors. Experienced across the full product lifecycle with a focus on scalable architecture, component-driven design, and measurable business impact.I am a fast learner who thrives in collaborative environments,
         working closely with clients and teams to turn ideas into impactful digital products.
-        Let’s work together to build something great!
+        Let’s work together to build something great! 
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
