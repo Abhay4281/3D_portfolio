@@ -26,7 +26,7 @@ import {
   leapahead,
   ambud,
   sayuj,
-  lfProject,
+  LfProject,
 } from "../assets";
 
 export const navLinks = [
@@ -245,7 +245,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: lfProject,
+    image: LfProject,
     source_code_link: "https://la-fetch.com", // or your case study/GitHub if available
   },
   {

@@ -37,7 +37,7 @@ import SAYUJLogo_light from "./SAYUJLogo_light.png";
 import leapahead from "./leapahead.png";
 import ambud from "./ambud.png";
 import sayuj from "./sayuj.png";
-import lfProject from "./lfProject.png";
+import LfProject from "./LfProject.png";
 
 export {
   logo,
@@ -76,5 +76,5 @@ export {
   leapahead,
   ambud,
   sayuj,
-  lfProject,
+  LfProject,
 };
