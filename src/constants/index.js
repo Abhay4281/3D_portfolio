@@ -16,6 +16,7 @@ import {
   figma,
   docker,
   stpi,
+  lafetch,
   digixito,
   carrent,
   jobit,
@@ -25,9 +26,8 @@ import {
   leapahead,
   ambud,
   sayuj,
+  lfProject,
 } from "../assets";
-
-
 
 export const navLinks = [
   {
@@ -116,6 +116,21 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Full Stack Developer",
+    company_name: "LaFetch",
+    icon: lafetch,
+    iconBg: "black",
+    date: "January 2026 - Present",
+    points: [
+      "Contributed to a high-traffic e-commerce platform serving 90K+ monthly visitors, building scalable frontend features using React.js, Redux, and React Router with a focus on performance, scalability, and cross-browser compatibility.",
+      "Reduced initial page load time by 1.2s and eliminated 60% of redundant network requests through TanStack Query caching, lazy loading, request deduplication, debouncing, and Redux state optimization.",
+      "Optimized the build pipeline using Webpack and Vite, reducing bundle size and improving Lighthouse scores; wrote unit and integration tests with Jest and React Testing Library to prevent regressions.",
+      "Architected backend features using Node.js, Express.js, GraphQL, and PostgreSQL in a microservices-oriented architecture, including RBAC and a personalized recommendation engine for context-aware product suggestions.",
+      "Containerized services with Docker for consistent development and deployment environments; integrated Meta Pixel, Google Tag Manager, GA4, Conversion API (CAPI), and Netcore to improve ad spend efficiency by 30%.",
+      "Designed a reusable library of 20+ React.js/Next.js components used across 30+ pages, reducing feature development time by 35% while implementing pixel-perfect, responsive interfaces from Figma.",
+    ],
+  },
+  {
     title: "MERN Stack Developer",
     company_name: "Software Technology Parks of India",
     icon: stpi,
@@ -184,6 +199,55 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "LaFetch",
+    description:
+      "Developed production-ready features for a large-scale e-commerce platform serving 90K+ monthly visitors. Reduced page load time by 1.2s, eliminated 60% of redundant API requests, built reusable React components, integrated analytics and marketing tools, and contributed to a scalable microservices architecture.",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Redux",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "TanStack Query",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Express.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "PostgreSQL",
+        color: "green-text-gradient",
+      },
+      {
+        name: "GraphQL",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Docker",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: lfProject,
+    source_code_link: "https://la-fetch.com", // or your case study/GitHub if available
+  },
   {
     name: "SAYUJ",
     description:

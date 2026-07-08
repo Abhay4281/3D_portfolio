@@ -27,6 +27,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import digixito from "./company/digixito.jpg";
 import stpi from "./company/stpi.jpeg";
+import lafetch from "./company/lafetch.webp";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -36,6 +37,7 @@ import SAYUJLogo_light from "./SAYUJLogo_light.png";
 import leapahead from "./leapahead.png";
 import ambud from "./ambud.png";
 import sayuj from "./sayuj.png";
+import lfProject from "./lfProject.png";
 
 export {
   logo,
@@ -67,10 +69,12 @@ export {
   jobit,
   tripguide,
   stpi,
+  lafetch,
   digixito,
   collegeLogo,
   SAYUJLogo_light,
   leapahead,
   ambud,
   sayuj,
+  lfProject,
 };

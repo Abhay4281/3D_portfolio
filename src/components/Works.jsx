@@ -73,7 +73,7 @@ const Works = () => {
           My Work
         </p>
         <h2 className={styles.sectionHeadText}>
-          Projects.
+         Professional Experience & Projects.
         </h2>
       </motion.div>
       <div className='w-full flex'>
